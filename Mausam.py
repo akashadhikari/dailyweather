@@ -33,3 +33,5 @@ df['Min']=C
 df['Rain']=D
 print(df)
 
+df.to_csv('out.csv')
+
